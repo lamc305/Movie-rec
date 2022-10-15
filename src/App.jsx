@@ -1,5 +1,5 @@
 import { Box } from '@chakra-ui/react'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { HashRouter, Route, Routes } from 'react-router-dom'
 import Details from './pages/Details'
 import List from './pages/List'
 import PageNotFound from './pages/PageNotFound'
@@ -13,10 +13,10 @@ import Footer from './components/Footer'
 
 function App() {
 
-  
+
   return (
     <Box minH='100%' minW='100%'>
-      <BrowserRouter>
+      <HashRouter>
         <Header />
         <Routes>
           <Route index element={<Home />} />
@@ -26,7 +26,7 @@ function App() {
           <Route path='*' element={<PageNotFound />} />
         </Routes>
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
     </Box>
   )
 }
