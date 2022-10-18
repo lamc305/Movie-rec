@@ -14,6 +14,7 @@ Página con home inicial en donde aparecen dos pestañas, tiene un buscador y un
 
 ![Home](./photos/home.png)
 
+![Home_light](./photos/home_light.png)
 
 ![Search](./photos/search.png)
 
