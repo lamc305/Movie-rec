@@ -12,11 +12,11 @@ Página con home inicial en donde aparecen dos pestañas, tiene un buscador y un
 
 ### Screenshot
 
-![Home](./photos/home.png)
+![Home](./photos/home.webp)
 
-![Home_light](./photos/home_light.png)
+![Home_light](./photos/home_light.webp)
 
-![Search](./photos/search.png)
+![Search](./photos/search.webp)
 
 ### Links
 
